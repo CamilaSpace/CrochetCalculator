@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Crochet Help
+        </title>
+      <!--Meta Tags for bootstrap-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>     
+<!--Links to JS,Bootstrap, and CSS-->
+<script type = "text/javascript" src = "script.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+        crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+  
+<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h1>
+            Crochet Calculator
+        </h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+</nav>
+
+
+<!--Sticky Table Also calulator that works-->
+    <div class="row">
+      <div class="column">  
+        
+        <div class="stickytable">
+
+        <form>
+        <input id="text1" placeholder="Enter Round">
+        </form>
+        
+        <input id="clickme" type="button" value="Calculate Circle" onclick="circle();" />
+        
+        </div>
+
+        <p><br></p>
+
+<!-- 2 Placeholder Tables Idk what to do with them-->
+        <table>
+            <tr>
+              <td>Round</td>
+              <td>
+                <input id = "text2" placeholder="Enter">
+              </td>
+            </tr>
+            
+            <tr>
+                <td>Stitches in first round</td>
+            </tr>
+          </table>
+        
+        <table>
+          <tr>
+            <td>Round</td>
+            <td>
+              <input id = "text2" placeholder="Enter">
+            </td>
+          </tr>
+        </table>  
+        </div>
+  
+<!--Excerpt of Text explaining how the calultor works/the part of the recipe that people skip-->
+      <div class="column">       
+        <h3>
+          Crochet Calculator
+        </h3>
+          <h4>
+            <!--Formmatting shit-->
+            <p>
+            A free crochet circle calulator. Note: Circle starts with magic circle
+            and 12 stitches in first round. <br>
+            Enter what round you are in the circle to calulate specific pattern.
+            <br>
+            </p>
+        </h4>   
+        
+        
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Donec id porta libero. Vestibulum dapibus consectetur tincidunt. 
+        Phasellus et imperdiet ex. Nulla facilisis diam in nibh laoreet finibus. 
+        Donec id lectus sed nibh commodo suscipit sit amet molestie sem. 
+        Sed ultricies aliquet ligula, quis efficitur erat facilisis consequat. 
+        Pellentesque bibendum finibus justo, nec vulputate nisi hendrerit sit amet. 
+        Suspendisse sed pulvinar elit. Aliquam erat volutpat. 
+        Nam eleifend ullamcorper lorem, a ullamcorper sem interdum at. 
+        Ut ornare, eros a dapibus posuere, odio nunc ultricies nulla, sit amet porta tellus risus dictum urna. 
+        Aenean consectetur sem erat, in convallis ante tristique ut. Praesent non diam sit amet nulla molestie
+        fermentum. Phasellus metus justo, blandit vel nulla a, bibendum semper sapien.
+        
+        <br><br>
+        <strong>
+          Another topic
+        </strong>
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Donec id porta libero. Vestibulum dapibus consectetur tincidunt. 
+        Phasellus et imperdiet ex. Nulla facilisis diam in nibh laoreet finibus. 
+        Donec id lectus sed nibh commodo suscipit sit amet molestie sem. 
+        Sed ultricies aliquet ligula, quis efficitur erat facilisis consequat. 
+        Pellentesque bibendum finibus justo, nec vulputate nisi hendrerit sit amet. 
+        Suspendisse sed pulvinar elit. Aliquam erat volutpat. 
+        Nam eleifend ullamcorper lorem, a ullamcorper sem interdum at. 
+        Ut ornare, eros a dapibus posuere, odio nunc ultricies nulla, sit amet porta tellus risus dictum urna. 
+        Aenean consectetur sem erat, in convallis ante tristique ut. Praesent non diam sit amet nulla molestie
+        fermentum. Phasellus metus justo, blandit vel nulla a, bibendum semper sapien.
+
+        <br> <br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Donec id porta libero. Vestibulum dapibus consectetur tincidunt. 
+        Phasellus et imperdiet ex. Nulla facilisis diam in nibh laoreet finibus. 
+        Donec id lectus sed nibh commodo suscipit sit amet molestie sem. 
+        Sed ultricies aliquet ligula, quis efficitur erat facilisis consequat. 
+        Pellentesque bibendum finibus justo, nec vulputate nisi hendrerit sit amet. 
+        Suspendisse sed pulvinar elit. Aliquam erat volutpat. 
+        Nam eleifend ullamcorper lorem, a ullamcorper sem interdum at. 
+        Ut ornare, eros a dapibus posuere, odio nunc ultricies nulla, sit amet porta tellus risus dictum urna. 
+        Aenean consectetur sem erat, in convallis ante tristique ut. Praesent non diam sit amet nulla molestie
+        fermentum. Phasellus metus justo, blandit vel nulla a, bibendum semper sapien.
+        </p></div>
+    </div>
+
+
+  </div>        
+            
+    
+    </body>
+</html>
